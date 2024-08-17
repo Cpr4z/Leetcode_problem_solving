@@ -1,0 +1,12 @@
+Testcase1:
+() - true
+
+Testcase2:
+()[]{} - true
+
+Testcase3:
+(] - false
+
+1) We use an idea that at the top of the stack locates opening parenthes, and if current pointer on the corresponding close parenthes.
+2) If we find a pair we delete top element of the stack
+3) If stack is empty after achieving end of the string, we return true and sequence is valid, otherwise we return false.
