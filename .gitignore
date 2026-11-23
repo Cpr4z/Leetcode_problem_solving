@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+build/
+build-no-tests/
+cmake-build-*/
+**/build/
+**/cmake-build-*/
