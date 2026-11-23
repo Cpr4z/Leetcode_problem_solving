@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(OneSideDifference LANGUAGES CXX)
+
+add_library(one_side_difference_solution one_side_difference.cpp)
+target_include_directories(one_side_difference_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(one_side_difference_solution PUBLIC cxx_std_20)

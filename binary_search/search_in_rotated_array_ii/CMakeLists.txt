@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(SearchInRotatedArrayII LANGUAGES CXX)
+
+add_library(search_in_rotated_array_ii_solution search_in_rotated_array_ii.cpp)
+target_include_directories(search_in_rotated_array_ii_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

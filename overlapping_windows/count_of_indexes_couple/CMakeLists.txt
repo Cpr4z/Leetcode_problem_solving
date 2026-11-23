@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CountOfIndexesCouple LANGUAGES CXX)
+
+add_library(count_of_indexes_couple_solution count_of_indexes_couple.cpp)
+target_include_directories(count_of_indexes_couple_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(count_of_indexes_couple_solution PUBLIC cxx_std_20)

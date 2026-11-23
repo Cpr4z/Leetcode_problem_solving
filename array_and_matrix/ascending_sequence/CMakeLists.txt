@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(AscendingSequence LANGUAGES CXX)
+
+add_library(ascending_sequence_solution ascending_sequence.cpp)
+target_include_directories(ascending_sequence_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(ascending_sequence_solution PUBLIC cxx_std_20)

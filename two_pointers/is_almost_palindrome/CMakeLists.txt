@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(IsAlmostPalindrome LANGUAGES CXX)
+
+add_library(is_almost_palindrome_solution is_almost_palindrome.cpp)
+target_include_directories(is_almost_palindrome_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(is_almost_palindrome_solution PUBLIC cxx_std_20)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(InsertInSortedArray LANGUAGES CXX)
+
+add_library(insert_in_sorted_array_solution insert_in_sorted_array.cpp)
+target_include_directories(insert_in_sorted_array_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

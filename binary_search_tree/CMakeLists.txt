@@ -1,0 +1,4 @@
+add_subdirectory(find_closest_value)
+add_subdirectory(find_k_least)
+add_subdirectory(find_k_max)
+add_subdirectory(equivalent_trees)

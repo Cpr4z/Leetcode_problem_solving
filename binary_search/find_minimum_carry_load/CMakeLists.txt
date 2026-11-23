@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindMinimumCarryLoad LANGUAGES CXX)
+
+add_library(find_minimum_carry_load_solution find_minimum_carry_load.cpp)
+target_include_directories(find_minimum_carry_load_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

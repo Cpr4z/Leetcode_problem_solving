@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(InvestorInFullCountry LANGUAGES CXX)
+
+add_library(investor_in_full_country_solution investor_in_full_country.cpp)
+target_include_directories(investor_in_full_country_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(investor_in_full_country_solution PUBLIC cxx_std_20)

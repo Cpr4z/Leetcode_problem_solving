@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(SubarrayWithKSum LANGUAGES CXX)
+
+add_library(subarray_with_k_sum_solution subarray_with_k_sum.cpp)
+target_include_directories(subarray_with_k_sum_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(subarray_with_k_sum_solution PUBLIC cxx_std_20)

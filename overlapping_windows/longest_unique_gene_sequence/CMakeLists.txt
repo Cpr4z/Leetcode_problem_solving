@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(LongestUniqueGeneSequence LANGUAGES CXX)
+
+add_library(longest_unique_gene_sequence_solution longest_unique_gene_sequence.cpp)
+target_include_directories(longest_unique_gene_sequence_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(longest_unique_gene_sequence_solution PUBLIC cxx_std_20)

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindAllAnagrams LANGUAGES CXX)
+
+add_library(find_all_anagrams_solution find_all_anagrams.cpp)
+target_include_directories(find_all_anagrams_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(find_all_anagrams_solution PUBLIC cxx_std_20)

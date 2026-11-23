@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(PartitionLabels LANGUAGES CXX)
+
+add_library(partition_labels_solution partition_labels.cpp)
+target_include_directories(remove_duplicates2_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(remove_duplicates2_solution PUBLIC cxx_std_20)

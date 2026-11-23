@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(Max1SegmentWithDeletion LANGUAGES CXX)
+
+add_library(max_1_segment_with_deletion_solution max_1_segment_with_deletion.cpp)
+target_include_directories(max_1_segment_with_deletion_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(max_1_segment_with_deletion_solution PUBLIC cxx_std_20)

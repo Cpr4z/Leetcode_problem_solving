@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(UniteSequenceNumbers LANGUAGES CXX)
+
+add_library(unite_sequence_numbers_solution unite_sequence_numbers.cpp)
+target_include_directories(unite_sequence_numbers_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

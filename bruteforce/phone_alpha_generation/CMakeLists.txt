@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(PhoneAlphaGeneration LANGUAGES CXX)
+
+add_library(phone_alpha_generation_solution phone_alpha_generation.cpp)
+target_include_directories(phone_alpha_generation_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

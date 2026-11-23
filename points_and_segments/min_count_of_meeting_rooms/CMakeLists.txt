@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(MinCountOfMeetingRooms LANGUAGES CXX)
+
+add_library(min_count_of_meeting_rooms_solution min_count_of_meeting_room.cpp)
+target_include_directories(min_count_of_meeting_rooms_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(min_count_of_meeting_rooms_solution PUBLIC cxx_std_20)

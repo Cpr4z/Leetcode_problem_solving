@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(DisappearedNumbers LANGUAGES CXX)
+
+add_library(disappeared_numbers_solution disappearedNumbers.cpp)
+target_include_directories(disappeared_numbers_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(disappeared_numbers_solution PUBLIC cxx_std_20)

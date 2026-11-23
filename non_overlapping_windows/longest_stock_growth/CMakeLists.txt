@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(LongestStockGrowth LANGUAGES CXX)
+
+add_library(longest_stock_growth_solution longest_stock_growth.cpp)
+target_include_directories(longest_stock_growth_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(longest_stock_growth_solution PUBLIC cxx_std_20)

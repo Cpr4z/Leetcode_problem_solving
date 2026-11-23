@@ -1,0 +1,7 @@
+add_subdirectory(phone_alpha_generation)
+add_subdirectory(unique_subsets)
+add_subdirectory(valid_bracket_sequence)
+add_subdirectory(restore_ip_address)
+add_subdirectory(cartesian_product)
+add_subdirectory(combinations_sum)
+add_subdirectory(numbers_permutations)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(BestTimeBuySellStocksWithFee LANGUAGES CXX)
+
+add_library(best_time_buy_sell_stocks_with_fee_solution best_time_buy_sell_stocks_with_fee.cpp)
+target_include_directories(best_time_buy_sell_stocks_with_fee_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

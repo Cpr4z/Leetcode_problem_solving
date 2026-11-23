@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindSymmetryLine LANGUAGES CXX)
+
+add_library(find_symmetry_line_solution find_symmetry_line.cpp)
+target_include_directories(find_symmetry_line_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(find_symmetry_line_solution PUBLIC cxx_std_20)

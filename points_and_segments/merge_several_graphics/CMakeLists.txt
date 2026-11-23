@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(MergeSeveralGraphics LANGUAGES CXX)
+
+add_library(merge_several_graphics_solution merge_several_graphics.cpp)
+target_include_directories(merge_several_graphics_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(merge_several_graphics_solution PUBLIC cxx_std_20)

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(GroupNumbersAnagrams LANGUAGES CXX)
+
+add_library(sequence_with_k_sum_solution sequence_with_k_sum.cpp)
+target_include_directories(sequence_with_k_sum_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(sequence_with_k_sum_solution PUBLIC cxx_std_20)

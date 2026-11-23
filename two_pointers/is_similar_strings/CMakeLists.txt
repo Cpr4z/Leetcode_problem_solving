@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(IsSimilarStrings LANGUAGES CXX)
+
+add_library(is_similar_strings_solution is_similar_strings.cpp)
+target_include_directories(is_similar_strings_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(is_similar_strings_solution PUBLIC cxx_std_20)

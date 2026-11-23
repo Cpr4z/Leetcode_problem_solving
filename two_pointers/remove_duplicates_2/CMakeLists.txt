@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(RemoveDuplicates LANGUAGES CXX)
+
+add_library(remove_duplicates2_solution remove_duplicates.cpp)
+target_include_directories(remove_duplicates2_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(remove_duplicates2_solution PUBLIC cxx_std_20)

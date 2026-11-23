@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(MoveZeroesToEnd LANGUAGES CXX)
+
+add_library(move_zeroes_to_end_solution move_zeroes_to_end.cpp)
+target_include_directories(move_zeroes_to_end_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(move_zeroes_to_end_solution PUBLIC cxx_std_20)

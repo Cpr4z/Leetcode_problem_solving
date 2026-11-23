@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(RemoveSmileyFaces LANGUAGES CXX)
+
+add_library(remove_smiley_faces_solution remove_smiley_faces.cpp)
+target_include_directories(remove_smiley_faces_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(remove_smiley_faces_solution PUBLIC cxx_std_20)

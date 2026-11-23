@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindKClosestElements LANGUAGES CXX)
+
+add_library(find_k_closest_elements_solution find_k_closest_elements.cpp)
+target_include_directories(find_k_closest_elements_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

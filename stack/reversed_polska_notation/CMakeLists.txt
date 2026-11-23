@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(ReversedPolskaNotation LANGUAGES CXX)
+
+add_library(reversed_polska_notation_solution reversed_polska_notation.cpp)
+target_include_directories(reversed_polska_notation_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

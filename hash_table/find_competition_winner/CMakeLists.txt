@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindCompetitionWinner LANGUAGES CXX)
+
+add_library(find_competition_winner_solution find_competition_winner.cpp)
+target_include_directories(find_competition_winner_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(find_competition_winner_solution PUBLIC cxx_std_20)

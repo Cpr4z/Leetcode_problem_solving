@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindMax1Sequence LANGUAGES CXX)
+
+add_library(find_max_1_sequence_solution find_max_1_sequence.cpp)
+target_include_directories(find_max_1_sequence_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(find_max_1_sequence_solution PUBLIC cxx_std_20)

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(MaxCommonPrefix LANGUAGES CXX)
+
+add_library(max_common_prefix_solution max_common_prefix.cpp)
+target_include_directories(max_common_prefix_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(max_common_prefix_solution PUBLIC cxx_std_20)

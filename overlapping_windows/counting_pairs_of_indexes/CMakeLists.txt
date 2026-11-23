@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CheckMutableVirus LANGUAGES CXX)
+
+add_library(counting_pairs_of_indexes_solution counting_pairs_of_indexes.cpp)
+target_include_directories(counting_pairs_of_indexes_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(counting_pairs_of_indexes_solution PUBLIC cxx_std_20)

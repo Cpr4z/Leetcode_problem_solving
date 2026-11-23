@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CountPairsWithDiffK LANGUAGES CXX)
+
+add_library(count_pairs_with_diff_k_solution count_pairs_with_diff_k.cpp)
+target_include_directories(count_pairs_with_diff_k_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(count_pairs_with_diff_k_solution PUBLIC cxx_std_20)

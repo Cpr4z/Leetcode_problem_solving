@@ -1,0 +1,6 @@
+add_subdirectory(MinMovesTo)
+add_subdirectory(MinMovesTo2)
+add_subdirectory(RomanToInteger)
+add_subdirectory(calculator)
+add_subdirectory(route_optimization)
+add_subdirectory(min_of_ideal_squares)

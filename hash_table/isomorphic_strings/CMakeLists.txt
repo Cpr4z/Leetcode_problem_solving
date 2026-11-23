@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(IsomorphicStrings LANGUAGES CXX)
+
+add_library(isomorphic_strings_solution isomorphic_strings.cpp)
+target_include_directories(isomorphic_strings_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(isomorphic_strings_solution PUBLIC cxx_std_20)

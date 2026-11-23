@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(SubintervalWithMinX LANGUAGES CXX)
+
+add_library(subinterval_with_min_x_solution subinterval_with_min_x.cpp)
+target_include_directories(subinterval_with_min_x_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

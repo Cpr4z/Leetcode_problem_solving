@@ -1,0 +1,6 @@
+add_subdirectory(best_spot_on_parking)
+add_subdirectory(coding_repeats)
+add_subdirectory(convolution_into_ranges)
+add_subdirectory(longest_stock_growth)
+add_subdirectory(longest_subset)
+add_subdirectory(unite_sequence_numbers)

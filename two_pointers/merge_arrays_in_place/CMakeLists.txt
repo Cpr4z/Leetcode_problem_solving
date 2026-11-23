@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(MergeArraysInPlace LANGUAGES CXX)
+
+add_library(merge_arrays_in_place_solution merge_arrays_in_place.cpp)
+target_include_directories(merge_arrays_in_place_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(merge_arrays_in_place_solution PUBLIC cxx_std_20)

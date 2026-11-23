@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CommonPrefix2Arrays LANGUAGES CXX)
+
+add_library(common_prefix_2_arrays_solution common_prefix_two_arrays.cpp)
+target_include_directories(common_prefix_2_arrays_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

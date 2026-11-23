@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(SlidingWindowMedian LANGUAGES CXX)
+
+add_library(sliding_window_median_solution sliding_window_median.cpp)
+target_include_directories(sliding_window_median_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(sliding_window_median_solution PUBLIC cxx_std_20)

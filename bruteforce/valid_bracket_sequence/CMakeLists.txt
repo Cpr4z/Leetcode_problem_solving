@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(ValidBracketSequence LANGUAGES CXX)
+
+add_library(valid_bracket_sequence_solution valid_bracket_sequence.cpp)
+target_include_directories(valid_bracket_sequence_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

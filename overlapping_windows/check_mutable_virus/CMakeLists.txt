@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CheckMutableVirus LANGUAGES CXX)
+
+add_library(check_mutable_virus_solution check_mutable_virus.cpp)
+target_include_directories(check_mutable_virus_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(check_mutable_virus_solution PUBLIC cxx_std_20)

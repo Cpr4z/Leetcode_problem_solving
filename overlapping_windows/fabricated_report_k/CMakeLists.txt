@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FabricatedReport LANGUAGES CXX)
+
+add_library(fabricated_report_solution fabricated_report.cpp)
+target_include_directories(fabricated_report_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(fabricated_report_solution PUBLIC cxx_std_20)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(CountReachableVerticies LANGUAGES CXX)
+
+add_library(count_reachable_vertices_solution count_reachable_vertices.cpp)
+target_include_directories(count_reachable_vertices_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

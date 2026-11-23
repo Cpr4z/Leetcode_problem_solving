@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FirstUniqueSymbol LANGUAGES CXX)
+
+add_library(first_unique_symbol_solution first_unique_symbol.cpp)
+target_include_directories(first_unique_symbol_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(first_unique_symbol_solution PUBLIC cxx_std_20)

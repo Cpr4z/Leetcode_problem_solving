@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(SubstringWithFullAlphabet LANGUAGES CXX)
+
+add_library(substrings_with_full_alphabet_solution substrings_with_full_alphabet.cpp)
+target_include_directories(substrings_with_full_alphabet_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

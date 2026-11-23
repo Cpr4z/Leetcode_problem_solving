@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29.6)
+
+project(FindFirstAndLastPos LANGUAGES CXX)
+
+add_library(find_first_and_last_pos_solution find_first_and_last_pos.cpp)
+target_include_directories(find_first_and_last_pos_solution PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
